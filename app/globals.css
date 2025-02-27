@@ -5,7 +5,10 @@
 html,
 body {
   max-width: 100vw;
+  min-height: 100vh;
   overflow-x: hidden;
+  /* TODO: move this later. Should not be here in body */
+  background-color: #fed253;
 }
 
 body {
